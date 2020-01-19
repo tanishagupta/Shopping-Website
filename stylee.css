@@ -1,0 +1,264 @@
+#wrapper
+{
+    font-family:tahoma;
+}
+.container
+{
+    width:90%;
+    margin:0 auto;
+}
+#subheader
+{
+    width:100%;
+    height:30px;
+    background:lightgray;
+    color:black;
+    margin-top:20px;
+}
+#subheader p
+{
+    float:left;
+    margin-top:10px;
+}
+#subheader a
+{
+    float:right;
+    line-height:30px;
+    color:black;
+    text-decoration:none;
+    margin-left:30px;
+}
+/* logo styling */
+#main-header
+{
+    width:100%;
+    height:20%;
+    background:whitesmoke;
+    float:left;
+    margin-top:-15px;
+}
+#logo
+{
+    width:250px;
+    margin-top:10px;
+    float:left;
+}
+#ist
+{
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+    margin-left:15px;
+    font-family:curvise;
+}
+#iist
+{
+    color:black;
+    font-size:35px;
+    font-weight:bold;
+    font-family:curvise;
+}
+/* search area*/
+#search
+{
+    width:650px;
+    float:left;
+    padding:20px;
+    margin-left:50px;
+}
+.search-area
+{
+    width:650px;
+    height:50px;
+    background:#fff;
+    border:none;
+    border-radius:10px;
+    float:left;
+    padding-left:15px;
+}
+.search-btn
+{
+    height:50px;
+    border-radius:10px;
+    border:none;
+    color:white;
+    width:100px;
+    background:lightgray;
+    margin-left:-100px;
+}
+/* styling for user menu*/
+#user-menu
+{
+    width:300px;
+    float:right;
+    margin-top:20px;
+}
+/* styling for list*/
+#user-menu li
+{
+    float:left;
+    width:140px;
+    text-align:center;
+    list-style:none;
+    font-size:25px;
+    border-left:1px solid black;
+}
+#user-menu li:hover
+{
+    font-size:30px;
+    transition:all ease;
+}
+#user-menu li a
+{
+    color:black;
+    text-decoration:none ;
+}
+/* styling navigation bar*/
+#navigation
+{
+    width:100%;
+    height:35px;
+    background:whitesmoke;
+    float:left;
+    
+}
+nav
+{
+    width:1280px;
+    margin:0 auto;
+}
+nav a
+{
+    margin-left:35px;
+    color:black;
+    text-decoration:none;
+}
+nav a:hover
+{
+    color:blue;
+    transition:all ease;
+}
+#footer
+{
+    width:100%;
+    height:auto;
+    background:#f5f5f5;
+    float:left;
+}
+.footer_sub
+{
+    width:25%;
+    float:left;
+    
+}
+.footer_sub ul li
+{
+    list-style:none;
+}
+.footer_sub ul li a
+{
+    text-decoration:none;
+    color:black;
+}
+.footer_sub ul li a:hover
+{
+    color:#1aaa1a;
+    text-decoration:underline;
+}
+.footer_sub_2
+{
+    width:20%;
+    float:left;
+}
+.footer_sub_2 ul li
+{
+    list-style:none; /*to remove the list bullets */
+
+}
+.footer_sub_2 ul li a
+{
+    text-decoration:none;
+    color:#000;
+}
+.footer_sub_2 ul li a:hover
+{
+    color:#1aaa1a;
+    text-decoration:underline;
+}
+.footer_sub_3
+{
+    width:35%;
+    float:left;
+}
+.subs
+{
+    width:350px;
+    border:none;
+    height:50px;
+    padding:15px;
+    float:left;
+}
+.sub_btn
+{
+    height:50px;
+    width:60px;
+    border:none;
+    background:grey;
+    float:left;
+}
+.sub_p
+{
+    color:#999;
+    font-style:italic;
+    font-size:15px;
+}
+
+
+.navclass ul
+{
+    background-color:whitesmoke;
+    color:black;
+    font-size:17px;
+    font-family:sans-serif;
+}
+.navclass ul li
+{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 28px;
+    position:relative;
+}
+.navclass ul li:hover
+{
+    background-color:lightgrey;
+    
+}
+ul.submenu
+{
+    position:absolute;
+    background-color:whitesmoke;
+    list-style-type:none;
+    width:125px;
+    padding-left:0px;
+    margin-left:-29px;
+    padding-top:10px;
+    margin-top:10px;
+    opacity:0;
+}
+ul.submenu li
+{
+    width:100px;
+    padding-left:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.navclass li:hover .submenu
+{
+    opacity:1;
+
+}
+ul.submenu li:hover
+{
+    color:black;
+    background-color:lightgray;
+}
