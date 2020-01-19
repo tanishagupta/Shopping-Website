@@ -1,0 +1,299 @@
+<html>
+    <head>
+        <title>
+            KartShop.com
+        </title>
+        <link rel="stylesheet" href="stylee.css" type="text/css">
+        <style type="text/css">
+            .imgStyle
+            {
+                width:100px;
+                height:100px;
+                border:3px solid gold;
+            }
+            </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="subheader">
+                    <div class="container">
+                    <p><marquee direction="left">India's fastest online shopping place</marquee></p>
+                    <a href="help.html">Help</a><a href="">Consumer</a><a href="">Download App</a><a href="">Guest</a>
+                    </div>
+                </div>
+                <!--main header-->
+                <div id="main-header">
+                    <!--logo-->
+                    <div id="logo">
+                        <span id="ist">Kart</span><span id="iist">Shop.com</span>
+                    </div>
+                    <!--search area-->
+                    <div id="search">
+                        <form action="">
+                            <input class="search-area" type="text" name="text" placeholder="search">
+                            <input class="search-btn" type="submit" name="submit" value="SEARCH">
+                        </form> 
+                    </div>
+                    <!--user menu-->
+                    <div id="user-menu">
+                        <li>
+                            <a href="#">Cart</a>
+                        </li>
+                        <li>
+                            <a href="#"><a href="login.html">Login</a></a>
+                        </li>
+                    </div>
+                </div>
+        <!--navigation bar-->
+                <div id="navigation">
+                    <nav class="navclass"> 
+                            <a href="#">Home</a>
+                            <a href="#"><a href="arrivals.html">Today's Deals</a></a>
+                            <a href="#"><a href="sale.html">Books</a></a>
+                            <a href="#"><a href="bill.html">Order</a></a>
+                            <a href="#">
+                            <ul>
+                               <li>
+                                    Categories
+                                    <ul class="submenu">
+                                        <li><a href="men.html">Men</a></li>
+                                        <li><a href="women.html">Women</a></li>
+                                        <li><a href="child.html">Children</a></li>
+                                        <li><a href="accessories.html">Accessories</a></li>
+                                        <li><a href="electronics.html">Electronics</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </a>
+                    </nav>
+                </div>
+                 <!--home slide-->
+            <div id="slide">
+                    <img id="mainImage" src="img8.jpg">
+                    <br>
+            <div id="divId" onClick="changeImageOnClick(event)">
+                <img class="imgStyle" src="img2.jpg">
+                <img class="imgStyle" src="img6.jpg">
+                <img class="imgStyle" src="img7.jpg">
+                <img class="imgStyle" src="img8.jpg">
+                <img class="imgStyle" src="b3.jpg">
+                <img class="imgStyle" src="b4.jpg">
+                <img class="imgStyle" src="b5.jpg">
+                <img class="imgStyle" src="b8.jpg">
+                <img class="imgStyle" src="b7.jpg">
+                <img class="imgStyle" src="b9.jpg">
+                <img class="imgStyle" src="b10.jpg">
+                <img class="imgStyle" src="b11.jpg">
+            </div>
+            <!--category boxes-->
+        <div class="container">
+                <div class="catbox"><br><br>
+                            <div>
+                                <nav>
+                                        <center><h2 style="font-weight:lighter;">BIGGEST BRANDS OF THE DAYS</h2>
+                            <a href="#"><img src="b1.jpg" width="380"></a>
+                            <a href="#"><img src="san.jpg" width="380"></a>
+                            </center>
+                            </nav>
+                        </div><br><br>
+                        <div>
+                            <nav>
+                                <center><h2 style="font-weight:lighter;">BIGGEST DEALS ON BRANDS</h2></center>
+                                <center><a href="#"><img src="m1.jpg" width="240"></a>
+                                <a href="#"><img src="w1.jpg" width="240"></a>
+                                <a href="#"><img src="dor.jpg" width="240"></a>
+                            </center>
+                            </nav>
+                        </div><br>
+                        
+                        <div>
+                            <nav>
+                                <center>
+                                    <a href="#"><img src="biba.jpg" width="240"></a>
+                                    <a href="#"><img src="a1.jpg" width="240"></a>
+                                    <a href="#"><img src="a2.jpg" width="240"></a>
+                                    <a href="#"><img src="a3.jpg" width="240"></a>
+                                </center>
+                            </nav>
+                        </div><br>
+                        <div>
+                            <nav>
+                                <center>
+                                    <a href="#"><img src="adi.jpg" width="240"></a>
+                                    <a href="#"><img src="nike.jpg" width="240"></a>
+                                    <a href="#"><img src="puma.jpg" width="240"></a>
+                                    <a href="#"><img src="ree.jpg" width="240"></a>
+                                </center>
+                            </nav>
+                        </div><br><br>
+                        <div>
+                            <nav>
+                        <center><h2 style="font-weight:lighter;">LAPTOP BY USE</h2>
+                            <a href="#"><img src="l1.jpg" width="340"></a>
+                            <a href="#"><img src="l2.jpg" width="340"></a>
+                            <a href="#"><img src="l3.jpg" width="340"></a><br><br>
+                            <a href="#"><img src="l4.jpg" width="340"></a>
+                            <a href="#"><img src="l5.jpg" width="340"></a>
+                            <a href="#"><img src="l6.jpg" width="340"></a>
+                        </center>
+                        </nav>
+                        </div><br><br>
+                        <div>
+                            <nav>
+                                <center>
+                                    <h2 style="font-weight:lighter;">MOBILES THROUGH VIDEOS</h2>
+                                    <a href="#">
+                                        <video width="400" height="240" controls>
+                                            <source src="vivo.mp4" type="video/mp4">
+                                        </video>
+                                    </a>
+                                    <a href="#">
+                                        <video width="400" height="240" controls>
+                                            <source src="oppo.mp4" type="video/mp4">
+                                        </video>
+                                    </a>
+                                </center>
+                            </nav>
+                        </div><br><br>
+                        <div>
+                            <nav>
+                                <center><h2 style="font-weight:lighter;">BIGGEST DEALS FOR SAVINGS</h2></center>
+                                <center>
+                                    <a href="#"><img src="kotak.jpg" width="400" height="240"></a>
+                                    <a href="#"><img src="oyo.jpg" width="400" height="240"></a>
+                                    <a href="#"><img src="yes.jpg" width="400" height="240"></a>
+                                </center>
+                            </nav>
+                        </div><br><br>
+                        <div>
+                            <nav>
+                                <center><h2 style="font-weight:lighter;">BIGGEST DEALS ON STYLES</h2></center>
+                                <a href="#"><img src="h1.jpg" width="380" height="500"></a>
+                                <a href="#"><img src="s1.jpg" width="380" height="500"></a>
+                                <a href="#"><img src="wa1.jpg" width="380" height="500"></a><br><br>
+                                <a href="#"><img src="hfurnish.jpg" width="380" height="500"></a>
+                                <a href="#"><img src="sunglasses.jpg" width="380" height="500"></a>
+                                <a href="#"><img src="denim.jpg" width="380" height="500"></a>
+                            </nav>
+                        </div>
+                        <br><br><br>
+                        <div>
+                            <nav>
+                                <center><h4><a href="#"><img src="ruppe1.PNG" width="80"></a>
+                                <a href="#"><img src="return.PNG" width="80"></a>
+                                <a href="#"><img src="Van.PNG" width="80"></h4></a>
+                                </center>
+        </nav>
+        </div><br><br>
+        
+                </div>
+            </div>
+                <script type="text/javascript">
+                    var images = document.getElementById("divId").getElementsByTagName("img");
+                    for(var i=0;i<img.length;i++)
+                    {
+                        img[i].onmouseover=function()
+                        {
+                            this.style.cursor='hand';
+                            this.style.borderColor='red';
+                        }
+                        img[i].onmouseout=function()
+                        {
+                            this.style.cursor='pointer';
+                            this.style.borderColor='grey';
+                        }
+                    }
+                    function changeImageOnClick(event)
+                    {
+                        event=event||window.event;
+                        var targetElement=event.target||event.srcElement;
+                        document.getElementById("mainImage").src=targetElement.getAttribute("src");
+                    }
+                    </script>
+            </div>
+            <div id="footer">
+                <div class="container1">
+                    <div class="footer_sub">
+                        <center>
+                        <h2>Get To Know Us</h2>
+                        <ul>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                        <a href="#">Careers</a>
+                                    </li>
+                                    <li>
+                                            <a href="#">Press Releases</a>
+                                        </li>
+                                        <li>
+                                                <a href="#">Gift A Smile</a>
+                                            </li>
+                            </ul>
+                            </center>
+                        </div>
+                        <div class="footer_sub_2">
+                            <center>
+                                <h2>Important links</h2>
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                            <a href="#">New Arrivals</a>
+                                        </li>
+                                        <li>
+                                                <a href="#">Order</a>
+                                            </li>
+                                            <li>
+                                                    <a href="#">Products</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#">Categories</a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="#">Deals</a>
+                                                        </li>
+                                </ul>
+                            </center>
+                        </div>
+                            <div class="footer_sub_2">
+                                    <center>
+                                            <h2>Social links</h2>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Facebook</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#">Google</a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="#">Youtube</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">Twitter</a>
+                                                            </li>
+                                                            <li>
+                                                                    <a href="#">Linkedin</a>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="#">Instagram</a>
+                                                                    </li>
+                                            </ul>
+                                        </center></div>
+                                <div class="footer_sub_3">
+                                    <center>
+                                    <h2>Get to know us more</h2>
+                                    <input class="subs" type="text" name="subs" placeholder="your e-mail">
+                                    <input type="submit" name="submit_btn" value="Go" class="sub_btn">
+                                    <br><br>
+                                    <p class="sub_p">Enter your e-mail id to get notifications from us</p>
+                                    </center>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
